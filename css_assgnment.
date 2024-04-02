@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Header styling */
+        .header {
+            background-color: #0078D4;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Introduction section styling */
+        .intro {
+            background-color: #F4F4F4;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        /* Skills section styling */
+        .skills {
+            margin: 20px;
+            padding: 20px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            border: 1px solid #EAEAEA;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        /* Contact section styling */
+        .contact {
+            background-color: #F4F4F4;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .intro, .skills, .contact {
+                margin: 10px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>John Doe</h1>
+    </div>
+
+    <!-- Introduction section -->
+    <div class="intro">
+        <h2>Introduction</h2>
+        <p>
+            Hi, I'm John Doe! I'm a web developer passionate about creating beautiful and functional websites.
+            With a strong background in HTML, CSS, and JavaScript, I love turning ideas into reality.
+        </p>
+    </div>
+
+    <!-- Skills section -->
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Python</li>
+        </ul>
+    </div>
+
+    <!-- Contact section -->
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>Email: john.doe@example.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></p>
+        <p>Twitter: <a href="https://twitter.com/johndoe">@johndoe</a></p>
+    </div>
+</body>
+</html>
